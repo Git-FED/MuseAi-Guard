@@ -1,0 +1,37 @@
+# Secrets — never commit
+proxy/credentials/*.json
+guardrails/notifier/config.json
+tools/muse-proxy/credentials/*.json
+*.pem
+*.key
+.env
+.env.*
+
+# Runtime state — never commit
+guardrails/kill_switch/state.json
+guardrails/approval_queue/*.jsonl
+proxy/request_log.jsonl
+logger/logs/*.jsonl
+tools/muse-guard/muse_guard/*.json
+tools/muse-guard/muse_guard/*.jsonl
+tools/muse-proxy/request_log.jsonl
+
+# Forensics output
+forensic-report/
+report.json
+report.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.zip

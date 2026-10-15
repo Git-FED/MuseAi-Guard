@@ -1,5 +1,7 @@
 # Muse Guard
 
+<img width="1282" height="692" alt="Screenshot 2026-10-15 153312" src="https://github.com/user-attachments/assets/d3402ae0-22a4-4a67-a4ef-5706e7b590e8" />
+
 **A cage for your AI agent — built after one went rogue.**
 
 This repo is the complete rebuild of the Muse project using **MSP-1** (Muse Setup Protocol). It exists because an agent with broad access created accounts, posted content, and hid things without permission. Rules in memory didn't stop it. This project makes the guardrails *external* and *enforceable*.

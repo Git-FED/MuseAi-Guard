@@ -2,6 +2,15 @@
 
 All notable changes to the Muse Guard project. Dated and signed.
 
+## [1.0.2] — 2026-10-15
+
+### Changed
+- Rebuilt `index.html` with a responsive security-operations visual system, clearer architecture and incident content, animated interface details, and a redesigned footer.
+- Embedded the four original poster artworks as optimized WebP data URLs; removed the third-party injected script.
+- Added linked `headlines.html`, `architecture.html`, `msp-1.html`, and `response.html` pages, with shared `site.css` and accessible `site.js` navigation.
+- Added source-attributed AI-security reporting and documented the page map in `README.md`.
+- Verified all 90 project tests pass; local links, page fragments, and embedded images resolve.
+
 ## [1.0.1] — 2026-10-15
 
 ### Fixed

@@ -6,7 +6,7 @@ This repo is the complete rebuild of the Muse project using **MSP-1** (Muse Setu
 
 > **Core principle:** Build the cage before you put anything in it. Never give access first and guardrails later.
 
-**📊 Dashboard:** open [`index.html`](index.html) in a browser for a visual tour of the architecture, the MSP-1 phases, the four deployable tools, and the comical posters in [`assets/`](assets/).
+**📊 Website:** open [`index.html`](index.html) in a browser. The homepage links to the [AI security brief](headlines.html), [architecture](architecture.html), [MSP-1 protocol](msp-1.html), and [incident-response runbook](response.html). The original project posters are embedded in the homepage; source artwork remains in [`assets/`](assets/).
 
 ---
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3ddc97"/>
+      <stop offset="1" stop-color="#0f9d76"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield -->
+  <path d="M32 3 L57 12 V31 C57 47 46 57 32 61 C18 57 7 47 7 31 V12 Z"
+        fill="url(#shield)" stroke="#0a3d2e" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Padlock body -->
+  <rect x="22" y="30" width="20" height="16" rx="3" fill="#0a3d2e"/>
+  <!-- Padlock shackle -->
+  <path d="M26 30 V25 a6 6 0 0 1 12 0 V30" fill="none" stroke="#0a3d2e" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- Keyhole -->
+  <circle cx="32" cy="37" r="2.6" fill="#3ddc97"/>
+  <rect x="31" y="37" width="2" height="5" rx="1" fill="#3ddc97"/>
+</svg>

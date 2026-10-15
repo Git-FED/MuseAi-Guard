@@ -1,0 +1,17 @@
+{
+  "domains": {
+    "bsky.social": {"credential": "bluesky", "scheme": "https"},
+    "mastodon.social": {"credential": "mastodon", "scheme": "https"},
+    "api.github.com": {"credential": "github", "scheme": "https"},
+    "discord.com": {"credential": "discord", "scheme": "https"},
+    "api.telegram.org": {"credential": "telegram", "scheme": "https"}
+  },
+  "blocked": [
+    "*.workers.dev",
+    "workers.dev",
+    "cloudflare.com",
+    "fedos.workers.dev",
+    "musefm.lol",
+    "lemmy.zip"
+  ]
+}

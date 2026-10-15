@@ -1,0 +1,14 @@
+{
+  "channel": "stdout",
+  "_comment": "Switch channel to 'email' or 'push'. Keep real secrets OUT of the repo — use env vars or a local file that's gitignored.",
+  "email": {
+    "from": "you@example.com",
+    "to": "you@example.com",
+    "smtp_host": "smtp.example.com",
+    "smtp_port": 587,
+    "password": "REPLACE_ME_OR_USE_ENV"
+  },
+  "push": {
+    "url": "https://your-push-endpoint.example.com/notify"
+  }
+}
